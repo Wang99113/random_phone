@@ -1,0 +1,11 @@
+Uncaught Exception: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\snapshot\手机号\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\snapshot\手机号\server.js)
+    at Module._compile (pkg/prelude/bootstrap.js:1926:22)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.runMain (pkg/prelude/bootstrap.js:1979:12)
